@@ -11,8 +11,10 @@ for (let i = 1; i <= numberOfPhotos; i++) {
         img.src = "../" +"image/"  + `${i}.jpeg`;
     } else if(i==16){
         img.src = "../" + "image/"  + `${i}.png`;
-    } else {
+    } else if(i==1 || i==3 || i==4 || i==14){
         img.src = "../" + "image/"  + `${i}.jpg`;
+    } else {
+        img.src = "../" + "image/"  + `${i}.JPG`;
     }
    
     img.classList.add('d-block', 'w-100' , 'gallery_img');
