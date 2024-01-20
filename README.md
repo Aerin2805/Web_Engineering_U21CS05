@@ -12,7 +12,6 @@ tabular format.<br>
     3. Create employee login and registration webpage using HTML form objects.
 </h3>
 <li><a href = "https://aerin2805.github.io/Web_Engineering_U21CS05/Assigment-1/(1)%20to%20(3)%20TASK/IndexT1-T2-T3.html">(1) to (3) TASK</a></li>
-  <br>
   <h3>4. Create a web page for your curriculum vitae using the following design. On
 the right column, some information about the mark-up and the visual
 presentation is provided.</h3>
