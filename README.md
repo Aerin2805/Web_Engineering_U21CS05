@@ -6,10 +6,10 @@
 
 <ul>
 <h3>
-    <li>1. Create a static webpage using table tags of HTML.</li>
-    <li>2. Create a static web page which defines all text formatting tags of HTML in
-tabular format.</li>
-    <li>3. Create employee login and registration webpage using HTML form objects.</li>
+    1. Create a static webpage using table tags of HTML.<br>
+    2. Create a static web page which defines all text formatting tags of HTML in
+tabular format.<br>
+    3. Create employee login and registration webpage using HTML form objects.
 </h3>
 <li><a href = "https://aerin2805.github.io/Web_Engineering_U21CS05/Assigment-1/(1)%20to%20(3)%20TASK/IndexT1-T2-T3.html">(1) to (3) TASK</a></li>
   <br>
