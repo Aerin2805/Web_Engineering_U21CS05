@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Canvas Example</title>
+    <style>
+      canvas {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <canvas
+        id="myCanvas"
+        width="400"
+        height="400"
+        style="background-color: rgba(139, 255, 236, 0.4)"
+      ></canvas>
+    </center>
+    <script>
+      var canvas = document.getElementById("myCanvas");
+      var ctx = canvas.getContext("2d");
+
+      // Draw red box
+      ctx.globalAlpha = 0.5;
+      ctx.fillStyle = "red";
+      ctx.fillRect(50, 50, 200, 200);
+
+      // Draw green box on top of red box
+      ctx.globalAlpha = 0.5;
+      ctx.fillStyle = "green";
+      ctx.fillRect(150, 150, 200, 200);
+    </script>
+  </body>
+</html>

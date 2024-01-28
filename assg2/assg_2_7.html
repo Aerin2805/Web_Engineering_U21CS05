@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      div p {
+        color: blue;
+      }
+      div:first-child {
+        background-color: yellow;
+      }
+      div:last-child {
+        background-color: pink;
+      }
+      .highlight {
+        font-weight: bold;
+      }
+      #my-element {
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>This is the first paragraph inside the div.</p>
+      <p class="highlight">This is the second paragraph inside the div.</p>
+      <p>This is the third paragraph inside the div.</p>
+    </div>
+    <div>
+      <p>This is another div.</p>
+    </div>
+    <p id="my-element">This paragraph has an id of "my-element".</p>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            transition: transform 1s;
+        }
+
+        .box:hover {
+            transform: rotate(45deg) scale(1.5);
+        }
+
+        .box2 {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            animation: move 5s infinite;
+        }
+
+        @keyframes move {
+            0% { transform: translateX(0px); }
+            50% { transform: translateX(200px); }
+            100% { transform: translateX(0px); }
+        }
+
+        .box3 {
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            resize: both;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+</body>
+</html>
